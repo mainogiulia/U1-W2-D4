@@ -67,11 +67,10 @@ function epify(str) {
   if (str.startsWith("Epicode")) {
     return str;
   } else {
-    return "Epicode" + str;
+    return "Epicode, " + str;
   }
 }
-epify("Trasforma i tuoi sogni in realtà");
-console.log(epify());
+console.log(epify("Trasforma i tuoi sogni in realtà"));
 
 /* ESERCIZIO 6
  Scrivi una funzione di nome "check3and7" che accetta un numero positivo come parametro. La funzione deve controllare che il parametro sia un multiplo
@@ -121,11 +120,11 @@ console.log(cutString("The quick brown fox jumps over the lazy dog"));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-function giveMeRandom(n) {
-  const givenNum=[];
-  for(let i = 0,i < n,i++);{
-    givenNum.push(Math.ceil(Math.random()*10+1))
-  }
-  return givenNum;
-}
-console.log(giveMeRandom())
+// function giveMeRandom(n) {
+//   const givenNum=[];
+//   for(let i = 0,i < n,i++);{
+//     givenNum.push(Math.ceil(Math.random()*10+1))
+//   }
+//   return givenNum;
+// }
+// console.log(giveMeRandom())
